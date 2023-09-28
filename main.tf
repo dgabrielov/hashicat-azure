@@ -28,7 +28,7 @@ provider "azurerm" {
   }
 } */
 
-data "azurerm_resource_group" "example" {
+data "azurerm_resource_group" "myresourcegroup" {
   name = "dg-resource-group"
 }
 
